@@ -1,0 +1,153 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#page-wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Header and Navbar Styles */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+#nav-bar {
+    display: flex;
+}
+
+.nav-link {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    padding: 5px 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    background-color: yellow; 
+    color: black; 
+    border: 1px solid black; 
+    padding: 10px 15px;
+    cursor: pointer;
+    display: block; 
+    margin-top: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Features Section */
+.grid {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.icon {
+    flex-basis: 20%;
+    text-align: center;
+    color: #333;
+}
+
+.desc {
+    flex-basis: 75%;
+}
+
+
+#how-it-works {
+    display: flex;    
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;  
+    position: relative; 
+    top: 10%; 
+    right: 10%; 
+    z-index: 1000; 
+}
+
+#video {
+    width: 150%;    
+    max-height: 70vh; 
+}
+
+
+
+/* Pricing Section */
+#pricing {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;}
+
+
+/* Footer */
+footer {
+    background-color:#8a8a8a;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Media Query for smaller devices */
+@media screen and (max-width: 768px) {
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .grid {
+        flex-direction: column;
+    }
+}
+
